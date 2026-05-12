@@ -24,3 +24,19 @@ body{margin:0;background:var(--bg);color:var(--black);-webkit-font-smoothing:ant
 .signup button{background:var(--black);color:#fff;border:none;padding:10px 16px;border-radius:8px;cursor:pointer}
 .site-footer{text-align:center;padding:18px;color:var(--muted);font-size:13px}
 @media(min-width:900px){.title-wrap h1{font-size:34px}}
+body {
+    background: linear-gradient(to bottom right, #141e30, #243b55);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent for crypto effect */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
