@@ -13,6 +13,18 @@ body{margin:0;background:var(--bg);color:var(--black);-webkit-font-smoothing:ant
 .container{max-width:900px;margin:28px auto;padding:0 18px}
 .site-header{display:flex;align-items:center;gap:16px;padding:28px 18px;background:linear-gradient(90deg,var(--green),#0bb06a);color:#fff}
 .logo{width:84px;height:84px}
+<!-- Buy $PTCT Call to Action Button -->
+<div style="text-align: center; margin: 30px auto;">
+  <a href="pump.fun" 
+     target="_blank" 
+     style="display: inline-block; background: linear-gradient(135deg, #9945FF 0%, #14F195 100%); color: #ffffff; font-family: sans-serif; font-size: 18px; font-weight: bold; text-decoration: none; padding: 15px 40px; border-radius: 50px; box-shadow: 0 4px 15px rgba(153, 69, 255, 0.4); transition: transform 0.2s ease, box-shadow 0.2s ease;"
+     onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 20px rgba(20, 241, 149, 0.6)';"
+     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 15px rgba(153, 69, 255, 0.4)';">
+    🚀 BUY $PTCT ON PUMP.FUN
+  </a>
+</div>
+<!-- End Buy Button -->
+
 .title-wrap h1{margin:0;font-size:28px;letter-spacing:0.6px}
 .tagline{margin:4px 0 0;font-size:14px;opacity:0.95}
 .byline{margin:6px 0 0;font-size:13px;opacity:0.9}
